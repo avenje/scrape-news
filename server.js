@@ -44,5 +44,4 @@ db.once('open', function() {
 });
 mongoose.set('debug', true);
 
-// get them routes
 require('./controllers/news_controller.js')(app);
